@@ -11,10 +11,9 @@ import { FeatureFlagAdapter } from './utils/featureFlags';
 
 
 function App() {
-
   useSentryToolbar({
     enabled: true,
-  
+    
     initProps: {
       organizationSlug: 'buildwithcode',
       projectIdOrSlug: 'kidshoops',
